@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: terraform-aws-cloudfront
+  description: AWS Cloudfront Terraform module
+  annotations:
+    github.com/project-slug: developertown/terraform-aws-cloudfront
+  tags:
+    - terraform
+    - aws
+    - CDN
+    - cloudfront
+spec:
+  type: terraform-module
+  lifecycle: production
+  owner: dt-devops
